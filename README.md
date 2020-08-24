@@ -1,6 +1,8 @@
 # How-to-create-MOIL-Dataset
 
-We have created our own dataset with the help of Intel T265  by modifying the examples given by Intel RealSense. ​
+*Prepared by- Shivani Baldwa & Raghav Jethliya*
+
+We have created our own dataset with the help of Intel T265  by modifying the examples given by Intel RealSense.
 
 We need following to create our dataset:
 
