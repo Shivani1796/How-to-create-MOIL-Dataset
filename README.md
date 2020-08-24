@@ -120,5 +120,23 @@ Distribution-specific packages:
 We named our dataset as MOIL dataset which stands for 'MCUT Omnidirectional Imaging Lab dataset' generated with the help of Intel RealSense T265 camera.
 Here is the source code available by which we can generate sequence of images and ground truth data at the same time.
 
-**NOTE:
-Replace the rs-trajectory folder to the above folder if you want to (*generate sequence of images and ground truth data at the same time.*)
+**NOTE:**
+
+**Replace the rs-trajectory folder to the above folder https://github.com/Shivani1796/How-to-create-MOIL-Dataset/tree/master/rs-trajectory if you want to (*generate sequence of images and ground truth data at the same time.*)**
+With this you need to make sure that you create a matrix.txt file in your system to store pose file (Line no:502)
+```
+cd ~/librealsense/build/
+cmake ..
+Compile: make
+cd ~/librealsense/build/examples/trajectory/
+Run: ./rs-trajectory
+```
+
+Output: 
+
+<p align="center">
+  <img src="https://github.com/Shivani1796/How-to-create-MOIL-Dataset/blob/master/rs-trajectory.png">
+</p>
+
+
+We can see sequences of images saved in folder, trajectory is made and pose files is stored in Matrix.txt file.
