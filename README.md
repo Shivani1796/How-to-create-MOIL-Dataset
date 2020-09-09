@@ -144,6 +144,6 @@ Output:
 We can see sequences of images saved in folder, trajectory is made and pose files is stored in Matrix.txt file.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Download the MOIL dataset: https://bit.ly/2BjAYZr
+## Download the MOIL dataset: https://bit.ly/3iq759W
 
 Thanks for your attention, please feel free to ask any question :)
